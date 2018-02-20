@@ -11,3 +11,7 @@ class Post:
         self.post_id = id
         self.title = title
         self.body = body
+
+    def __str__(self):
+        return f"id: {self.post_id}, title: {self.title}, body: {self.body}"
+    
