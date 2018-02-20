@@ -1,8 +1,8 @@
-from models import memper, post
+import models
+Member1 = models.Member("SIZER", "25")
+Member2 = models.Member("LO-ZAR", "24")
 
-member1 = member("SIZER", "25")
-member2 = member("LO-ZAR", "24")
+Post1 = models.Post("Test", "This text is a test of the quality of work")
+Post2 = models.Post("help my", "whan you walk on a stret and...... next time ")
+Post3 = models.Post("Freedom", "From the first line of the first chapter of the Green Book")
 
-post1 = post("Test", "This text is a test of the quality of work")
-post2 = post("help my", "whan you walk on a stret and...... next time ")
-post3 = post("Freedom", "From the first line of the first chapter of the Green Book")
